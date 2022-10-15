@@ -136,7 +136,7 @@ end
 Settings = game:service'HttpService':JSONEncode(readfile(Name))
 end)
 
-local LibName = WdaowdJOiaIaJFgjgaUHNSGUj
+local LibName = "WdaowdJOiaIaJFgjgaUHNSGUj"
 
 function Kavo:ToggleUI()
     if game.CoreGui[LibName].Enabled then
