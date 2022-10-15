@@ -136,7 +136,7 @@ end
 Settings = game:service'HttpService':JSONEncode(readfile(Name))
 end)
 
-local LibName = "WdaowdJOiaIaJFgjgaUHNSGUj"
+local LibName = tostring(math.random(1, 100))..tostring(math.random(1,50))..tostring(math.random(1, 100))
 
 function Kavo:ToggleUI()
     if game.CoreGui[LibName].Enabled then
@@ -262,7 +262,7 @@ function Kavo.CreateLib(kavName, themeList)
     title.Size = UDim2.new(0, 204, 0, 8)
     title.Font = Enum.Font.Bangers
     title.RichText = false
-    title.Text = kavName .. "     -->     .gg/MoonHub"
+    title.Text = kavName .. " --> .gg/MoonHub"
     title.TextColor3 = Color3.fromRGB(245, 245, 245)
     title.TextSize = 18.000
     title.TextXAlignment = Enum.TextXAlignment.Left
