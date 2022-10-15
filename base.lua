@@ -147,9 +147,7 @@ function Kavo:ToggleUI()
 end
 
 function Kavo:DestroyUI()
-    if game.CoreGui[LibName].Enabled then
-        ScreenGui:Destroy()
-    end
+    game.CoreGui[LibName]:Destroy()
 end
 
 function Kavo.CreateLib(kavName, themeList)
