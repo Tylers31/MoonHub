@@ -1,3 +1,5 @@
+-- KAVO FORK WITH ADDED FEATURES
+-- e.g. Kavo:DestroyUI(), Kavo:HideUI(), Added themes, X button removed & replaced with Kavo:HIDEUI(), fixed color picker, ect
 local Kavo = {}
 
 local tween = game:GetService("TweenService")
